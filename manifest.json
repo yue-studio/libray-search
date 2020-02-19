@@ -1,0 +1,19 @@
+{
+  "name": "Library Search",
+  "version": "1.0",
+  "description": "Search the selected text at Sunnyvale Library to see if the bopok exists.",
+  "manifest_version": 2,  
+  "browser_action": {
+    "default_icon": "hello_extensions.png"
+  },
+ "background":{
+    "scripts": ["js/code.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "contextMenus",
+    "tabs"
+  ]
+}
